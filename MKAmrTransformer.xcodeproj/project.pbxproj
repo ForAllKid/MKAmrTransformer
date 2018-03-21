@@ -13,11 +13,11 @@
 		710DDFE820622EF90051BCD9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 710DDFE720622EF90051BCD9 /* Assets.xcassets */; };
 		710DDFEB20622EF90051BCD9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 710DDFE920622EF90051BCD9 /* LaunchScreen.storyboard */; };
 		710DDFEE20622EF90051BCD9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 710DDFED20622EF90051BCD9 /* main.m */; };
-		710DE07E206231B30051BCD9 /* RecordVoice.m in Sources */ = {isa = PBXBuildFile; fileRef = 710DE078206231B30051BCD9 /* RecordVoice.m */; };
-		710DE07F206231B30051BCD9 /* libopencore-amrwb.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 710DE07A206231B30051BCD9 /* libopencore-amrwb.a */; };
-		710DE080206231B30051BCD9 /* libopencore-amrnb.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 710DE07B206231B30051BCD9 /* libopencore-amrnb.a */; };
-		710DE081206231B30051BCD9 /* amrFileCodec.m in Sources */ = {isa = PBXBuildFile; fileRef = 710DE07C206231B30051BCD9 /* amrFileCodec.m */; };
-		710DE082206231B30051BCD9 /* RecordManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 710DE07D206231B30051BCD9 /* RecordManager.m */; };
+		710DE094206235770051BCD9 /* RecordVoice.m in Sources */ = {isa = PBXBuildFile; fileRef = 710DE08E206235770051BCD9 /* RecordVoice.m */; };
+		710DE095206235770051BCD9 /* libopencore-amrwb.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 710DE090206235770051BCD9 /* libopencore-amrwb.a */; };
+		710DE096206235770051BCD9 /* libopencore-amrnb.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 710DE091206235770051BCD9 /* libopencore-amrnb.a */; };
+		710DE097206235770051BCD9 /* amrFileCodec.m in Sources */ = {isa = PBXBuildFile; fileRef = 710DE092206235770051BCD9 /* amrFileCodec.m */; };
+		710DE098206235770051BCD9 /* RecordManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 710DE093206235770051BCD9 /* RecordManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,18 +31,19 @@
 		710DDFEA20622EF90051BCD9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		710DDFEC20622EF90051BCD9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		710DDFED20622EF90051BCD9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		710DE06E206231B30051BCD9 /* RecordVoice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecordVoice.h; sourceTree = "<group>"; };
-		710DE06F206231B30051BCD9 /* RecordManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecordManager.h; sourceTree = "<group>"; };
-		710DE070206231B30051BCD9 /* amrFileCodec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = amrFileCodec.h; sourceTree = "<group>"; };
-		710DE073206231B30051BCD9 /* if_rom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = if_rom.h; sourceTree = "<group>"; };
-		710DE074206231B30051BCD9 /* dec_if.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dec_if.h; sourceTree = "<group>"; };
-		710DE076206231B30051BCD9 /* interf_dec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = interf_dec.h; sourceTree = "<group>"; };
-		710DE077206231B30051BCD9 /* interf_enc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = interf_enc.h; sourceTree = "<group>"; };
-		710DE078206231B30051BCD9 /* RecordVoice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecordVoice.m; sourceTree = "<group>"; };
-		710DE07A206231B30051BCD9 /* libopencore-amrwb.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libopencore-amrwb.a"; sourceTree = "<group>"; };
-		710DE07B206231B30051BCD9 /* libopencore-amrnb.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libopencore-amrnb.a"; sourceTree = "<group>"; };
-		710DE07C206231B30051BCD9 /* amrFileCodec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = amrFileCodec.m; sourceTree = "<group>"; };
-		710DE07D206231B30051BCD9 /* RecordManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecordManager.m; sourceTree = "<group>"; };
+		710DE084206235770051BCD9 /* RecordVoice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecordVoice.h; sourceTree = "<group>"; };
+		710DE085206235770051BCD9 /* RecordManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecordManager.h; sourceTree = "<group>"; };
+		710DE086206235770051BCD9 /* amrFileCodec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = amrFileCodec.h; sourceTree = "<group>"; };
+		710DE089206235770051BCD9 /* if_rom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = if_rom.h; sourceTree = "<group>"; };
+		710DE08A206235770051BCD9 /* dec_if.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dec_if.h; sourceTree = "<group>"; };
+		710DE08C206235770051BCD9 /* interf_dec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = interf_dec.h; sourceTree = "<group>"; };
+		710DE08D206235770051BCD9 /* interf_enc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = interf_enc.h; sourceTree = "<group>"; };
+		710DE08E206235770051BCD9 /* RecordVoice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecordVoice.m; sourceTree = "<group>"; };
+		710DE090206235770051BCD9 /* libopencore-amrwb.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libopencore-amrwb.a"; sourceTree = "<group>"; };
+		710DE091206235770051BCD9 /* libopencore-amrnb.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libopencore-amrnb.a"; sourceTree = "<group>"; };
+		710DE092206235770051BCD9 /* amrFileCodec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = amrFileCodec.m; sourceTree = "<group>"; };
+		710DE093206235770051BCD9 /* RecordManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecordManager.m; sourceTree = "<group>"; };
+		710DE09A20623EDA0051BCD9 /* MKArmHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MKArmHeader.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,8 +51,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				710DE07F206231B30051BCD9 /* libopencore-amrwb.a in Frameworks */,
-				710DE080206231B30051BCD9 /* libopencore-amrnb.a in Frameworks */,
+				710DE095206235770051BCD9 /* libopencore-amrwb.a in Frameworks */,
+				710DE096206235770051BCD9 /* libopencore-amrnb.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,7 +78,7 @@
 		710DDFDD20622EF90051BCD9 /* MKAmrTransformer */ = {
 			isa = PBXGroup;
 			children = (
-				710DE06D206231B30051BCD9 /* arm */,
+				710DE083206235770051BCD9 /* arm */,
 				710DDFDE20622EF90051BCD9 /* AppDelegate.h */,
 				710DDFDF20622EF90051BCD9 /* AppDelegate.m */,
 				710DDFE120622EF90051BCD9 /* ViewController.h */,
@@ -91,55 +92,24 @@
 			path = MKAmrTransformer;
 			sourceTree = "<group>";
 		};
-		710DE06D206231B30051BCD9 /* arm */ = {
+		710DE083206235770051BCD9 /* arm */ = {
 			isa = PBXGroup;
 			children = (
-				710DE06E206231B30051BCD9 /* RecordVoice.h */,
-				710DE078206231B30051BCD9 /* RecordVoice.m */,
-				710DE070206231B30051BCD9 /* amrFileCodec.h */,
-				710DE07C206231B30051BCD9 /* amrFileCodec.m */,
-				710DE06F206231B30051BCD9 /* RecordManager.h */,
-				710DE07D206231B30051BCD9 /* RecordManager.m */,
-				710DE071206231B30051BCD9 /* include */,
-				710DE079206231B30051BCD9 /* lib */,
+				710DE09A20623EDA0051BCD9 /* MKArmHeader.h */,
+				710DE084206235770051BCD9 /* RecordVoice.h */,
+				710DE08E206235770051BCD9 /* RecordVoice.m */,
+				710DE085206235770051BCD9 /* RecordManager.h */,
+				710DE093206235770051BCD9 /* RecordManager.m */,
+				710DE086206235770051BCD9 /* amrFileCodec.h */,
+				710DE092206235770051BCD9 /* amrFileCodec.m */,
+				710DE089206235770051BCD9 /* if_rom.h */,
+				710DE08A206235770051BCD9 /* dec_if.h */,
+				710DE08C206235770051BCD9 /* interf_dec.h */,
+				710DE08D206235770051BCD9 /* interf_enc.h */,
+				710DE090206235770051BCD9 /* libopencore-amrwb.a */,
+				710DE091206235770051BCD9 /* libopencore-amrnb.a */,
 			);
 			path = arm;
-			sourceTree = "<group>";
-		};
-		710DE071206231B30051BCD9 /* include */ = {
-			isa = PBXGroup;
-			children = (
-				710DE072206231B30051BCD9 /* opencore-amrwb */,
-				710DE075206231B30051BCD9 /* opencore-amrnb */,
-			);
-			path = include;
-			sourceTree = "<group>";
-		};
-		710DE072206231B30051BCD9 /* opencore-amrwb */ = {
-			isa = PBXGroup;
-			children = (
-				710DE073206231B30051BCD9 /* if_rom.h */,
-				710DE074206231B30051BCD9 /* dec_if.h */,
-			);
-			path = "opencore-amrwb";
-			sourceTree = "<group>";
-		};
-		710DE075206231B30051BCD9 /* opencore-amrnb */ = {
-			isa = PBXGroup;
-			children = (
-				710DE076206231B30051BCD9 /* interf_dec.h */,
-				710DE077206231B30051BCD9 /* interf_enc.h */,
-			);
-			path = "opencore-amrnb";
-			sourceTree = "<group>";
-		};
-		710DE079206231B30051BCD9 /* lib */ = {
-			isa = PBXGroup;
-			children = (
-				710DE07A206231B30051BCD9 /* libopencore-amrwb.a */,
-				710DE07B206231B30051BCD9 /* libopencore-amrnb.a */,
-			);
-			path = lib;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -214,11 +184,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				710DDFE320622EF90051BCD9 /* ViewController.m in Sources */,
-				710DE07E206231B30051BCD9 /* RecordVoice.m in Sources */,
+				710DE094206235770051BCD9 /* RecordVoice.m in Sources */,
 				710DDFEE20622EF90051BCD9 /* main.m in Sources */,
 				710DDFE020622EF90051BCD9 /* AppDelegate.m in Sources */,
-				710DE082206231B30051BCD9 /* RecordManager.m in Sources */,
-				710DE081206231B30051BCD9 /* amrFileCodec.m in Sources */,
+				710DE098206235770051BCD9 /* RecordManager.m in Sources */,
+				710DE097206235770051BCD9 /* amrFileCodec.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -7,6 +7,7 @@
 //
 #ifndef amrFileCodec_h
 #define amrFileCodec_h
+
 #include <stdlib.h>
 #include <string.h>
 #include <stdio.h>
@@ -14,6 +15,7 @@
 #include "interf_enc.h"
 #import <UIKit/UIKit.h>
 #import <Foundation/Foundation.h>
+
 #define AMR_MAGIC_NUMBER "#!AMR\n"
 
 #define PCM_FRAME_SIZE 160 // 8khz 8000*0.02=160
